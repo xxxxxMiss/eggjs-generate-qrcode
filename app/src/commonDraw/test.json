@@ -1,0 +1,130 @@
+// 纯文本
+{
+    "basic": {
+        "height": 1000
+    },
+    "items": [
+        {
+            "type": "text",
+            "text": "121312312",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "type": "text",
+            "text": "121312312",
+            "fontWeight": "bold",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "type": "text",
+            "text": "第二行",
+            "x": 100,
+            "y": 140,
+            "fillStyle": "#00B26A"
+        },
+        {
+            "type": "text",
+            "text": "第三行",
+            "x": 100,
+            "y": 190,
+            "fillStyle": "#999999",
+            "fontSize": 30
+        },
+        {
+            "type": "text",
+            "text": "很多字的第四行很多字的第四行很多字的第四行很多字的第四行很多字的第四行很多字的第四行",
+            "x": 100,
+            "y": 240,
+            "maxRow": 2,
+            "maxWidth": 300
+        }
+    ]
+}
+
+{
+    "basic": {
+        "height": 1000
+    },
+    "items": [
+        {
+            "type": "group",
+            "direction": "x",
+            "x": 10,
+            "y": 20,
+            "items": [
+                {
+                    "type": "text",
+                    "text": "121312312",
+                    "y": 100
+                },
+                {
+                    "type": "text",
+                    "text": "121312312",
+                    "fontWeight": "bold",
+                    "y": 100
+                },
+                {
+                    "type": "text",
+                    "text": "第二行",
+                    "y": 140,
+                    "fillStyle": "#00B26A"
+                },
+                {
+                    "type": "text",
+                    "text": "第三行",
+                    "y": 190,
+                    "fillStyle": "#999999",
+                    "fontSize": 30
+                },
+                {
+                    "type": "text",
+                    "text": "很多字的第四行很多字的第四行很多字的第四行很多字的第四行很多字的第四行很多字的第四行",
+                    "y": 240,
+                    "maxRow": 2,
+                    "maxWidth": 300
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "basic": {
+        "height": 1000
+    },
+    "items": [
+        {
+            "type": "img",
+            "url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=415293130,2419074865&fm=27&gp=0.jpg",
+            "x": 0,
+            "y": 0
+        }
+    ]
+}
+
+// 图文混合
+{
+    "basic": {
+        "height": 1000
+    },
+    "items": [
+        {
+            "type": "group",
+            "direction": "x",
+            "x": 10,
+            "y": 20,
+            "items": [
+                {
+                    "type": "text",
+                    "text": "121312312"
+                },
+                {
+                    "type": "img",
+                    "url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=415293130,2419074865&fm=27&gp=0.jpg"
+                }
+            ]
+        }
+    ]
+}
